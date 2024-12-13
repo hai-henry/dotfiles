@@ -22,5 +22,4 @@ vim.api.nvim_set_keymap('n', '<C-j>', '<C-w>j', { noremap = true, silent = true 
 vim.api.nvim_set_keymap('n', '<C-k>', '<C-w>k', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
-vim.keymap.set({"n", "v"}, "<leader/", ":CommentToggle<cr>")
 vim.api.nvim_set_keymap('n', '<leader>tr', ':belowright split | resize 15 | setlocal winfixheight | terminal<CR>', { noremap = true, silent = true })
